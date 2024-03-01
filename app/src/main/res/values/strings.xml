@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">pr2</string>
+    <string name="linear_l">meow MEOW</string>
+    <string name="linear_b">puff</string>
+    <string name="relative_l">Hello, world!</string>
+    <string name="relative_b">press plz</string>
+    <string name="constraint_l">Hi Hello Привет</string>
+    <string name="edit_text">QWERTY</string>
+</resources>
