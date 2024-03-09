@@ -32,4 +32,5 @@
         android:layout_width="wrap_content"
         android:layout_height="510dp"
         android:src="@drawable/kitten" />
+
 </LinearLayout>

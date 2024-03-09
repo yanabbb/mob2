@@ -30,20 +30,11 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, SecondActivity.class);
                 intent.putExtra("image", R.drawable.img2);
-                start.launch(intent);
+                startActivity(intent);
                 //Log.d("MyTag", "Кнопка была нажата!");
             }
 
-            ActivityResultLauncher<Intent> start = registerForActivityResult(new ActivityResultContracts.StartActivityForResult(),
-                    new ActivityResultCallback<ActivityResult>() {
-                        @Override
-                        public void onActivityResult(ActivityResult result) {
-                            Bundle image = result.getData().getExtras();
-                            ImageView imageView = findViewById(R.id.image);
-                            int imageResource = image.getInt("image");
-                            imageView.setImageResource(imageResource);
-                        }
-                    });
+
         });
     }
     /*public void onClick(View view) {

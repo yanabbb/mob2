@@ -6,4 +6,6 @@
     <string name="relative_b">press plz</string>
     <string name="constraint_l">Hi Hello Привет</string>
     <string name="edit_text">QWERTY</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

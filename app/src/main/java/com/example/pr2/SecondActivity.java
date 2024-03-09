@@ -15,15 +15,6 @@ public class SecondActivity extends AppCompatActivity {
         ImageView imageView = findViewById(R.id.image);
         int imageResource = image.getInt("image");
         imageView.setImageResource(imageResource);
-        Button backButton = findViewById(R.id.button);
-        backButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent();
-                intent.putExtra("image", imageResource);
-                setResult(RESULT_OK, intent);
-                finish();
-            }
-        });
+
     }
 }
